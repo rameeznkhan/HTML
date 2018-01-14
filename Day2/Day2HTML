@@ -1,0 +1,49 @@
+CSS
+Three main types of css
+  Inline
+  Internal
+  External
+
+  Inline and Internal not amongst best practices
+
+  CSS format attribute:value;
+  e.g color: red;
+
+  P {
+  color: red;
+  background: black;
+  }
+
+  In the above eg p tag is called a selector
+
+  There are 5 types of selectors
+  1 Element Selector: P is an element selector
+  Data id class title can be used for any element
+
+  2 Class and id selector:
+  We use "." for class and "#" for ids.
+
+  !important will give more priority to the property it is used with. Not recommended to use though.
+
+  Id is unique cannot be used on multiple elements.
+
+  3 Parent-Child selector:
+  Used to apply style to elements using the relations.
+
+  4. Grouping:
+    Comma separated name of elements for applying similar styles
+
+  5. Psuedo Classes:
+      Special events such as hover etc.
+      Applicable for only anchor tag:
+      :link
+      :visited
+      :active
+      Important Psuedo classes:
+        Child classes:
+           first-child
+           last-child
+           nth-child(2);
+  Additional
+    Attribute Selector:
+      Apply style to particular attributes to only (refer to attribute selector example)

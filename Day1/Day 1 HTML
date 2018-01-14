@@ -1,0 +1,133 @@
+html case insenstitive
+tags not present go in body 
+understands and picks things from extension
+can also be saved as .htm
+
+
+<!doctype html>
+<html>
+<head>
+  <title> <title>
+  <script> <script>
+  <style> <style>
+  <link/>
+</head>
+<body>
+  Hello world!
+</body>
+</html>
+
+Heading tags
+from <H1> to <H6>
+H1 being the largest
+
+Paragraphs
+Starts on a newline just like <br> but p tag gives more width
+
+
+tags to avoid(deprecated in html5) all the styling can be done using css
+<b>
+<big>
+<u>
+<i>
+<tt>
+<strong>
+<center>
+<frame>
+<font>
+
+Attributes
+data attribute can be attached to any tag. Append data-
+
+Comments: Read not rendered
+<!--  This is a comment  -->
+
+Images
+<img src = "url"> properties height width in pixels(px) which is optional (use css for styling)
+title to show a name when user hovers
+alt tag to show alternative title
+class tag important 
+id tag
+
+
+Lists: 
+  Ordered List <ol> - Numbers
+  Number(1), alphabets(a), roman numbers(i)
+
+  Start tag = "4"
+  <ol type = "A" start = "4">
+  <ol type = "A">
+    <li> 4 <li>
+    <li> 1 <li>
+    <li> 2 <li>
+  </ol>
+
+  Unordered List <ul> - Bullets
+    Square circles discs types
+   <ul type = "square">
+    <li> 4 <li>
+    <li> 1 <li>
+    <li> 2 <li>
+  </ul>
+
+
+Semantic Tags
+<header>
+<Footer>
+<Section>
+<Aside>
+<Article>
+<Nav>
+
+Sample
+ <header>
+  <nav>
+    <p> menu1 </p>
+    <p> menu2 </p>
+  </nav>
+
+  <section>
+    <article> Art1 </article>
+  </section>
+  <aside>
+    <p> My side </p>
+  </aside>
+
+  <footer> Copyright &copy; </footer>
+</header>
+
+
+&reg for registered symbol
+
+
+input elements
+media elements
+web storage
+
+Non semantic elements: 
+<div> - block level element
+<span> - inline element
+
+
+Sample
+<div> Hello </div>     |  Hello
+<div> World </div>     |  World
+
+<span> Hello </span>    | Hello World
+<span> World </span>    |
+
+
+Form elements
+<form>
+  input - single line text
+  select
+  radio
+  checkbox
+  textarea - Multi line text
+  Button
+  output - label
+  datalist
+
+
+Remaining audio video
+

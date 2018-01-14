@@ -1,0 +1,31 @@
+h4 {
+  color: blue;
+}
+h4:hover {
+  color: red;
+}
+
+
+p:first-child {
+  color: violet;
+}
+
+p:nth-child(2) {
+  color: indigo;
+}
+
+p:nth-child(3) {
+  color: blue;
+}
+
+p:nth-child(4) {
+  color:green;
+}
+
+p:nth-child(5) {
+  color: orange;
+}
+
+p:last-child {
+  color: yellow;
+}

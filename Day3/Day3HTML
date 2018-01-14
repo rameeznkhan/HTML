@@ -1,0 +1,103 @@
+TEXT PROPERTIES:
+1. Color
+1. Color: colorname
+
+2. Hexadecimal values (0-9, A-F)
+ eg color: #FFFFFF;
+ color #FFFFFF : White
+      #000000: Black
+      #FF0000: Red
+
+shorthand for white = #FFF
+              red = #F00
+using shorthand not recommended
+
+3. rgb color code (0-256):
+eg - color: rgb(255, 0, 0); - red
+
+4.rgba color code (0-256):
+eg color: rgba(255, 0, 0, 0.6)
+
+2. text-align (left, right, center, justify):
+justify: aligning text according to its length
+
+3.text-transform(uppercase, lowercase, capitalize):
+Capitalize only uses uppercase for initials
+
+4.text-decoration(overline, underline, line-through):
+
+5. text-indent(px):
+eg. text-indent: 5px
+
+6. letter-spacing(px): Kerning
+
+7. word-spacing(px): Space between two words
+
+8.line-height(px): space between two lines
+
+FONT PROPERTIES:
+
+1. font-size(px/em):
+eg/ font-size: 14px or 1em
+em is responsive
+
+2. font-family():
+    e.g. font-family: Arial, Times new Roman
+    The first available will be applied if neither available machines default font is used.
+
+3. font-weight(bold, normal, 100, 200...700, bolder):
+  default is normal, bold and normal available on machines
+
+4. font-style(normal, italic):
+  default normal.
+
+DIV:
+background-color: red
+background-image: url("path")
+background-repeat: no-repeat;
+                  repeat-x;
+                  repeat-y;
+                  repeat-all;
+
+background: red url("path") no-repeat;
+color will be applied behind the image. Image will always be over the color;
+
+BORDER:
+1. border-color:
+2. border-width(px):
+3. border-style(solid, dashed, dotted, inset, outset):
+4. border-left
+5. border-top
+6  border-bottom
+7. border-right
+  eg border-left-color/ border-left-width
+     border-left: 1px solid blue;
+
+MARGIN:
+margin(px):
+eg margin: 10px (from all sides)
+   margin: 10px(top, bottom) 20px(left, right)
+   margin: 10px(top) 20px (left, right) 10px(bottom)
+   margin: 10px(top) 20px(right) 30px(bottom) 40px(left)
+   margin-left:10px
+   margin: (0, auto) to center a div
+
+padding: similar to margin
+
+DISPLAY
+display(none, block, inline,):
+none will hide it
+
+visibility(hidden, visible):
+
+opacity(0-1):
+
+float(left, right, none):
+none is default.
+
+position(absolute, relative, static, fixed): To be avoided
+static is default
+
+absolute: will work according to the closest relative parent with body being the farthest relative parent.
+relative: will work according to the relative parent. It will have scrollbars is the top/left position exceed the width and height of the parent.
+fixed:

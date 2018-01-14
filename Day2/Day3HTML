@@ -1,0 +1,54 @@
+TEXT PROPERTIES:
+1. Color
+1. Color: colorname
+
+2. Hexadecimal values (0-9, A-F)
+ eg color: #FFFFFF;
+ color #FFFFFF : White
+      #000000: Black
+      #FF0000: Red
+
+shorthand for white = #FFF
+              red = #F00
+using shorthand not recommended
+
+3. rgb color code (0-256):
+eg - color: rgb(255, 0, 0); - red
+
+4.rgba color code (0-256):
+eg color: rgb(255, 0, 0, 0.6)
+
+2. text-align (left, right, center, justify):
+justify: aligning text according to its length
+
+3.text-transform(uppercase, lowercase, capitalize):
+Capitalize only uses uppercase for initials
+
+4.text-decoration(overline, underline, line-through):
+
+5. text-indent(px):
+eg. text-indent: 5px
+
+6. letter-spacing(px): Kerning
+
+7. word-spacing(px): Space between two words
+
+8.line-height(px): space between two lines
+
+FONT PROPERTIES:
+
+1. font-size(px/em):
+eg/ font-size: 14px or 1em
+em is responsive
+
+2. font-family():
+    e.g. font-family: Arial, Times new Roman
+    The first available will be applied if neither available machines default font is used.
+
+3. font-weight(bold, normal, 100, 200...700, bolder):
+  default is normal, bold and normal available on machines
+
+4. font-style(normal, italic):
+  default normal.
+
+5. 
