@@ -1,0 +1,29 @@
+Bootstrap is a css framework used for responsive websites
+its a grid based system with each page divided in 12 columns
+lg- large screens(big tvs, projectors)
+md- medium devices(laptops, PC's)
+sm- small devices(tablets, phablets)
+xs- extra small devices(smartphones)
+
+in nested columns each new division again is considered to have 12 columns
+<div class="col-md-4"> </div>
+<div class="col-md-8">
+  <div class="col-md-12">
+    <div class="col-md-6"> </div>
+    <div class="col-md-6"> </div>
+   </div>
+  </div>
+
+  <div class="row"> optional
+
+  <div class="container">: leaves certain space to the left and right and shows content in the center
+
+
+  Classes for button -  btn is a default class for designing
+  button sizes = btn-lg, btn-sm, btn-xs. btn-md being default
+  button color = btn-primary, btn-warning, btn-danger, btn-success, btn-info
+
+  eg. btn btn-xs btn-danger
+
+  btn-block fills all the available columns with the button
+  
