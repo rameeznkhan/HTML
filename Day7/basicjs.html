@@ -1,0 +1,38 @@
+<html>
+<head>
+
+</head>
+<body>
+<input type="text" id="txtbox" value="" />
+<h1 id="message"> </h1>
+<script>
+document.getElementById("message").innerHTML = "hello world";
+document.getElementById("txtbox").value = "hello world";
+
+document.getElementById("message").innerHTML = 2 + 4;
+// alert("Hello World!");
+console.log("Welcome to Javascript");
+var shape = "circle";
+var size = 20;
+var fruits = ["Apple", "Mango", "Peach"];
+var dt = new Date();
+var func = function() { console.log("test fn");};
+var test;
+function sum() {
+  return 10 + 20;
+}
+
+console.log("shape: ", typeof(shape));
+console.log("size : ", typeof(size));
+console.log("fruits: ", typeof(fruits));
+console.log("Date: ", typeof(dt));
+console.log("Function: ", typeof(func));
+console.log("MNotDefined: ", typeof(undef));
+console.log("test: ", typeof(test));
+console.log("sum: ", typeof(sum()));
+console.log("True: ", typeof(true));
+console.log("Null: ", typeof(Null));
+
+</script>
+</body>
+</html>

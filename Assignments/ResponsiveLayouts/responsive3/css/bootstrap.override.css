@@ -1,0 +1,25 @@
+footer{
+  text-align: center;
+}
+
+.nav-pills{
+  margin: 20px;
+}
+
+.jumbotron {
+  padding: 5px;
+  padding: 20px;
+  height: 100vh;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+}
+
+.label{
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.nav-stacked{
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}

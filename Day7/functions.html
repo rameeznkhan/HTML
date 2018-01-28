@@ -1,0 +1,52 @@
+<html>
+<head>
+</head>
+<body>
+<input type="text" id="txtbox" value="" />
+<h1 id="message"> </h1>
+<script>
+function sum() {
+  alert(10 + 20)
+}
+sum();
+
+function sum1() {
+  return (10 + 20)
+}
+var ans = sum1();
+console.log(ans);
+
+//parameterised
+function sum2(a, b) {
+  console.log("Sum is " + (a + b))
+}
+sum2(10, 20);
+
+var a = function() { // Anonymous function
+  console.log("Anonymous function ");
+}
+a();
+
+var x = function(a, b) { return a + b;};
+ console.log(x(20, 20));
+
+ var stud2 = {
+   fname: "abc",
+   lname: "xyz",
+   fullName: function() {
+   return this.fname + " " + this.lname;
+    },
+    gender: "male"
+  };
+
+console.log(stud2);
+console.log(stud2.fname);
+console.log(stud2.fullName());
+console.log(stud2.gender);
+
+//Accessing via subscripts
+console.log(stud2["fname"]);
+
+</script>
+</body>
+</html>

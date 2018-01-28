@@ -1,0 +1,19 @@
+footer{
+  text-align: center;
+}
+
+.jumbotron {
+  margin: 3px;
+  height: 100vh;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+}
+
+.label{
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.col-md-4 {
+    width: 32.50%;
+}

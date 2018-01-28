@@ -1,0 +1,17 @@
+.leftside{
+  float: left;
+  background: blue;
+  height: 100vh;
+}
+
+.middleside{
+  float: left;
+  background: orange;
+  height: 100vh;
+}
+
+.rightside{
+  float: left;
+  background: red;
+  height: 100vh;
+}

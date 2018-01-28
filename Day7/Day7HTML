@@ -1,0 +1,106 @@
+Scope:
+Variable types:
+  Global
+  Local
+
+//*******
+function sum() {
+  var x;
+  x = 10;
+  alert(x);
+  x = null // invokes garbage collector
+}
+
+//*******
+var c = 10:
+function print() {
+  var c = 20;
+  alert(c); //20
+}
+alert(c); //10
+
+//*******
+var c = 10:
+function print() {
+  c = 20;
+  alert(c); //20
+}
+alert(c); //20
+
+//*******
+function print() {
+  c = 30;
+  alert(c); //30
+}
+alert(c); //30  If variable undefined it is taken as a global Variable
+
+//*******
+var msg = "Hello";
+function sum(a, b) {
+  var c = a + b;
+  alert(c);
+}
+sum(10, 20);
+
+//*******
+
+STRINGS:
+var str = "Welcome to Angular";
+  String Properties:
+  length
+  e.g. str.length
+
+  String Methods:
+  str.toUpperCase(); => WELCOME TO ANGULAR
+  str.toLowerCase(); => welcome to angular
+  str.charAt(index);
+  e.g. str.charAt(0); => W
+  str.charCodeAt(index)
+  e.g. str.charCodeAt(1) => 101
+  str.indexOf(subString);
+  e.g. str.indexOf("to"); =>8
+      str.indexOf("come"); =>3
+  str.split(delimiter)
+    e.g. var str = "Apple, Mango, Peach";
+        console.log(str.split(",")); => ["Apple", "Mango", "Peach"];
+        console.log(str.split("e")); => ["Appl", ",Mango,P", "ach"];
+
+MATH FUNCTIONS:
+  Math.round();
+  e.g. var no = 4.7;
+  console.log(Math.round(no)); => 5
+  e.g. var no = 4.4;
+  console.log(Math.round(no)); => 4
+  e.g. var no = 4.5;
+  console.log(Math.round(no)); => 5 //Upper boundary always
+
+  Math.ceil();
+  e.g. Math.ceil(4.4); => 5
+       Math.ceil(4.8); => 5
+
+  Math.floor();
+  e.g. Math.floor(4.9); => 4
+       Math.floor(4.4); => 4
+
+DATE:
+  var dt = new Date(); => Sun Jan 28 2018 17:42:25 GMT+0530 (IST)
+  console.log(dt.getDate()); // 28
+  console.log(getDay()); //0
+  console.log(dt.getFullYear());2018
+  console.log(dt.getMonth()); //0
+  console.log(dt.getHours()); //17
+  console.log(dt.getMinutes()); // 42
+  console.log(dt.getSeconds()); // 25
+  console.log(dt.getMilliseconds()); // 25
+  console.log(dt.getTime()); // 16 digit number since 1 Jan 1970
+
+  setters for all the above functions with the same name
+
+
+EVENTS:
+  onClick();
+  onDblClick();
+  onKeyPress();
+  onKeyUp();
+  onKeyDown();
+  

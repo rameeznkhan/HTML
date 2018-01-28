@@ -1,0 +1,194 @@
+Javascript
+Toplevel datatype in javascript is object.
+
+Datatypes in javascript:
+Number
+String
+Boolean
+null
+undefined
+Array
+object
+
+e.g. var a
+
+WindowObject
+|_Document
+|         |_Body_
+|                |_Forms
+|_History
+|_Navigation
+|_Location(address)
+
+for non-form elements
+document.getElementById("message").innerHTML = "Hello World";
+
+for form elements
+document.getElementById("message").value = "Hello World";
+
+
+Outputs:
+document.write("Hello world");
+document.getElementById("message").innerHTML="Hello World";
+alert("Sample Alert");
+console.log("Comes from console");
+
+Console.log is always preferred.
+
+alert("Answer is " + (2+3));
+console.log(Answer is ", (2+3));
+
+Getter and Setter:
+setter:
+document.getElementById("message").innerHTML="Hello World";
+getter:
+var msg = document.getElementById("message").innerHTML;
+
+
+1.<script type="text/javascript">
+
+</script>
+  //Code here
+old way
+2.<script language="javascript">
+
+</script>
+
+3.<script>
+//Code
+</script>
+
+Comments:
+// Single Line
+/* */ Multi Line
+/** */ Documentation Comment
+
+Javascript uses an interpreter it parses the code line by line and execution is stopped when an error is encountered
+
+
+Operators:
+1.Assignment Operator:
+  =
+  +=
+  -=
+  *=
+  /+
+  %=
+
+2.Comparison Operator:
+ <
+ >
+ <=
+ >=
+ !=(checks only value)
+ ==(checks only value)
+ ===(checks value and datatype)
+ !==(checks value and datatype)
+
+3.Arithmetic Operators:
+  +
+  -
+  *
+  /
+  %
+  ++
+  --
+
+4.Logical Operators:
+  &&
+  ||
+  !
+
+5.Ternary Operators:
+?:
+
+e.g.
+console.log(0.1 + 0.2) => 0.30000000000000004
+console.log(0.3 == 0.3) => true
+console.log(0.3 == (0.1+0.2)) => false
+console.log(1 + "2" + "2") => "122"
+console.log(1 + -"2" + "2") => "-12"
+console.log(1 + "2" + 2) => "122"
+console.log(1 + 2 + "2") => "32"
+console.log("1" + 2 + 2) => "122"
+console.log("1" + "2" + 2) => "122"
+console.log("A" + "B" + 2) => AB2
+console.log("A" - "B" + "2") => NaN2
+console.log("A" - "B" + 2) => Nan2
+console.log(1 - "2" + "2") => 1
+console.log(1 == true); //=> true
+console.log(0 == true); //=> false
+console.log(1 === true); //=> false
+console.log(1 == 5);// => false
+console.log(5 == true);// => false
+
+
+TypeOf used to check the datatype of a variable
+e.g.
+var fn = new function(); // typeof fn => function
+var shape = "round"; // typeof shape => String
+var size = 10; // typeof size => Number
+var fruits = ["Apple", "Mango", "Peach"]; // typeof fruits => "Object"
+var today = new Date(); // typeof today => Object
+
+typeof doesn'tExist => undefined
+typeof true => boolean
+typeof null => object
+
+Functions:
+Named Functions
+Anonymous Functions
+
+e.g.
+function sum() {
+var a = 10;
+var b = 20;
+alert(a + b);
+}
+
+call sum()
+
+function sum() {
+var a = 10;
+var b = 20;
+return (a + b);
+}
+
+var ans = sum(); OR alert(sum());
+
+
+parameterised function
+function sum(a, b) {
+alert(a + b);
+}
+
+sum(10, 20); 30
+sum(10); NaN
+sum(10, 20, 30); 30
+
+Anonymous Function:
+var x = function() { return 10 + 20;};
+x();
+
+var x = function(a, b) { return a + b;};
+x(10, 20);
+
+var y = function() { alert( 10 + 20)}; // Not necessary that the function returns
+y(); => 30;
+
+
+Objects:
+Variable binded using (key: values)
+e.g.
+var stud = {name: "abc", age: 10};
+var stud = {"name": "abc", "age": 10};
+
+access values:
+alert(stud.name) => abc //recommended
+alert(stud["name"]) => abc
+
+var stud2 = {fname: "abc", lname: "xyz", fullName: function() {
+  return this.fname + " " + this.lname;
+}};
+
+alert(stud.fullName()); => abc xyz
