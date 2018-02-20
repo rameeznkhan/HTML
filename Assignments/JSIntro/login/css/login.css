@@ -1,0 +1,91 @@
+body{
+  /* background:  linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+background-image: linear-gradient(to top,0% #fafefa, white 100%);
+  font-family: BlinkMacSystemFont, Helvetica Neue;
+}
+
+.login-area{
+  float: left;
+  width: 24%;
+  height: 250px;
+  align-content: center;
+  background: white;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-top: 10%;
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+.msg-area{
+  margin-left: 10%;
+  padding-top: 20px;
+  height: 80px;
+  width: 500px;
+  font-family:
+}
+
+.textfield-area{
+  margin-left: 10%;
+}
+
+.button-area{
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 80%;
+  height: 100px;
+}
+
+#username-textfield{
+
+}
+
+#password-textfield{
+  margin-top: 20px;
+}
+
+.textfield{
+  width: 98%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #EEEEEE;
+  display: block;
+  font-size: 14px;
+}
+
+#login-button{
+  background: #1db954;
+  color: #FFFFFF;
+  font-size: 14px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+}
+
+#forgot-button{
+  margin-left: 75px;
+  color: #1db954;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1db954;
+}
+
+#grok{
+  color: #1db954;
+  text-shadow: 2px 2px #eeeeee;
+  font-family: OpenSans;
+  letter-spacing: 1px;
+}
+
+input[type=checkbox]{
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+  font-family: BlinkMacSystemFont, Helvetica Neue;
+}

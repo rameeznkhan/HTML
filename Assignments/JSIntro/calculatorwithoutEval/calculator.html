@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="calculator-area">
+      <div class="total">
+        <h4 id="calculations"></h4>
+        <h2 id="total">Total to be shown here</h2>
+      </div>
+      <div class="button-area">
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "7">7</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "8">8</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "9">9</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "/">/</button>
+        </div>
+        <!-- //new row -->
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "4">4</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "5">5</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "6">6</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "*">*</button>
+        </div>
+        <!-- new row     -->
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "1">1</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "2">2</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "3">3</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "-">-</button>
+        </div>
+        <!-- new row -->
+        <div class="calculator-button">
+            <button onclick="equalsClicked(this.value)" value = "=">=</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "0">0</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="clearClicked(this.value)" value = "">C</button>
+        </div>
+        <div class="calculator-button">
+            <button onclick="buttonClicked(this.value)" value = "+">+</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="calculator.js"></script>
+</html>

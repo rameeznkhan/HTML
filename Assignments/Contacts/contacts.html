@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>My Contacts</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/contacts.css">
+    </head>
+    <body>
+      <div class="col-md-12">
+        <h1>My Contacts</h1>
+      <div>
+      <div class="col-md-8">
+        <div class="bs-example" data-example-id="table-within-panel">
+          <div class="panel panel-default">
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Number</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          </table>
+          <table class="table" id="myTable">
+
+          </table>
+          <tbody>
+          </tbody>
+
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-12">
+          <input required type="text" placeholder="Name" class="form-control" id="name"/>
+        </div>
+        <div class="col-md-12">
+          <input required type="text" placeholder="Number" class="form-control" id="number"/>
+        </div>
+        <div class="col-md-12">
+          <button type="submit" onclick="addButtonClicked()" class="btn btn-default btn-success">ADD</button>
+        </div>
+      </div>
+    <script type="text/javascript" src="contacts.js">
+    </script>
+    </body>
+  </html>

@@ -1,0 +1,36 @@
+package.json: contains all the dependencies required by a proj. Generates node_modules
+
+npm install generates all the dependencies in package.json
+
+
+ng new my-app
+creates a new angular workspace
+
+ng serve
+compiles our application
+
+ng serve --open
+compiles and launches our application
+
+address: https://localhost:4200
+
+Angular 1 app size: 148kb
+Angular 2 app size: 250kb->100kb->80kb->30kb->11kb
+
+
+if a file is a module, its name would be app.module.ts
+in case of component it would be app.component.ts
+
+Modules:
+    component: Contains html, css and typescript.
+    Services only tyrescript files. Will contain business logic.
+    Model only typescript files.
+
+
+first file which loads in angular is module. (app.module.ts). it will check in cache and download if only its not present there.
+All the packages are present in node modules.
+
+Main.ts : This is the main file which starts bootstrapping(loading) the main module of our app i.e. app.module.ts
+app.module.ts: app module is the master file of our application which includes all the components of our application. This
+file is loaded main.ts
+Note: The first component that is loaded in our application is AppComponent from app.commponent.ts

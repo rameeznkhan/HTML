@@ -1,0 +1,49 @@
+Angular :
+         Traditional Page Application: Requests all the required resources every time a new page is loaded.
+
+         Single Page Application: Loads pages in wrappers and required files are loaded from cache once the main file is loaded
+         from the server.
+
+         Node js: Javascript library
+         grunt/gulp: packages build on node
+
+
+Architecture:
+             MVW (Model View, W): Model(html), View(css), Controller(Js)
+             Everything is a component(head, menu, etc) i.e. resusable html code
+
+  Angular File structure:
+
+   My App
+         |_ e2e/.. : test cases would go in this folders
+         |_ node_modules/.. : All the npm packages installed will be here
+         |_ src/.. : Where all application code will reside
+              |_app: Actual app code
+                    |_ app.component.css : actual css
+                    |_ app.component.html : actual html
+                    |_ app.component.spec.ts : unit test file
+                    |_ app.component.ts: Actual typescript file (gets converted to js at runtime)
+                    |_ app.module.ts: Root module which will have all the components
+              |_ assets/.. : Images and resources required by the app
+              |_ environments
+                    |_ environment.prod.ts: All app configurations for productions
+                    |_ environment.ts: All app configurations for staging
+              |_ favicon.ico : Icon whihc you can see in the tab
+              |_ index.html: Master html which has a wrapper which will load all our components
+              |_ main.ts: Our app execution starts from here
+              |_ polyfill.ts: Assures our app works the same way in each and every browser
+              |_ styles.css: Master css Styling for main wrapper (index.html)
+              |_ test.ts: Unit test entry point.
+              |_ tsconfig.app.json: typescript compiler config for app
+              |_ tsconfig.spec.json: typescript compiler config for unit test.
+
+
+         |_ .angular_cli.json : config for angular_cli
+         |_ .editor.config : Simple config files for our editor
+         |_ .gitignore : ignore files in repo
+         |_ karma.conf.js : config for karma test runner
+         |_ package.json : Maintains the dependencies our app requires
+         |_ protractor.conf.js: end to end test config used when running "ng e2e"
+         |_ README.MD : App info file details about our app
+         |_ tsconfig.json : typescript compiler config for our IDE to pick up and give helpful tooling.
+         |_ tslint.json : keeps our code style consistent. Linter for typescript.
