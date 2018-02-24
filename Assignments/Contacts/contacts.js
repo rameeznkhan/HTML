@@ -36,6 +36,5 @@ function deleteButtonClicked(btn) {
   console.log(btn.parentElement.parentElement);
   var row = btn.parentElement.parentElement;
   row.parentNode.removeChild(row);
-  // document.getElementById("myTable").deleteRow(0);
   console.log(arr);
 }
